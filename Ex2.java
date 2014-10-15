@@ -7,8 +7,8 @@ abstract class Ex {
 
 class Ex2_0 extends Ex{
 	void execute(){
-		double x;
-		double y;
+		int x;
+		int y;
 
 		x = 63;
 		y = 18;
@@ -22,11 +22,11 @@ class Ex2_0 extends Ex{
 
 class Ex2_1 extends Ex{
 	void execute(){
-		int x;
-		int y;
+		double x;
+		double y;
 
-		x = 63;
-		y = 18;
+		x = 63.5;
+		y = 18.3;
 
 		System.out.println("xの値は" + x + "です。");
 		System.out.println("yの値は" + y + "です。");
@@ -49,7 +49,7 @@ class Ex2_2 extends Ex{
 		System.out.println("yの値は" + y + "です。");
                 System.out.println("zの値は" + z + "です。");
 		System.out.println("合計は" + (x + y + z) + "です。");
-		System.out.println("平均は" + (x + y + z) / 2 + "です。");
+		System.out.println("平均は" + (x + y + z) / 3 + "です。");
 	}
 }
 

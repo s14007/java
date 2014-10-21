@@ -77,7 +77,7 @@ class Ex2_3 extends Ex{
         void execute(){
            Scanner stdIn = new Scanner(System.in);
 
-           System.out.println("xとyを加減乗除します。");
+           System.out.println("xとyをそのまま表示します。");
 
            System.out.print("xの値");
            int x = stdIn.nextInt();
@@ -94,7 +94,7 @@ class Ex2_4 extends Ex{
         void execute(){
            Scanner stdIn = new Scanner(System.in);
 
-           System.out.println("xとyを加減乗除します。");
+           System.out.println("xとyに10を加えた値と10を減じた値を出力します。");
 
            System.out.print("xの値");
            int x = stdIn.nextInt();
@@ -108,7 +108,7 @@ class Ex2_5 extends Ex{
         void execute(){
            Scanner stdIn = new Scanner(System.in);
 
-           System.out.println("xとyを加減乗除します。");
+           System.out.println("xとyを読み込み、その和と平均を求めて表示します。");
 
            System.out.print("xの値");
            int x = stdIn.nextInt();
@@ -127,13 +127,13 @@ class Ex2_6 extends Ex{
 
            System.out.println("xとyを加減乗除します。");
 
-           System.out.print("xの値");
+           System.out.print("底辺xの値");
            int x = stdIn.nextInt();
 
-           System.out.print("yの値");
-           int y = stdIn.nextInt();
+           System.out.print("高さyの値");
+           double y = stdIn.nextInt();
 
-            System.out.println("x * y = " + (x * y) / 2);
+            System.out.println("(x * y) / 2= " + (x * y) / 2);
         }
 }
 

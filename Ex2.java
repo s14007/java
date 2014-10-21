@@ -125,13 +125,13 @@ class Ex2_6 extends Ex{
         void execute(){
            Scanner stdIn = new Scanner(System.in);
 
-           System.out.println("xとyを加減乗除します。");
+           System.out.println("三角形の底辺xと高さyで読み込んで、その面積を表示");
 
            System.out.print("底辺xの値");
-           int x = stdIn.nextInt();
+           double x = stdIn.nextDouble();
 
            System.out.print("高さyの値");
-           double y = stdIn.nextInt();
+           double y = stdIn.nextDouble();
 
             System.out.println("(x * y) / 2= " + (x * y) / 2);
         }

@@ -149,10 +149,10 @@ class Ex2_000 extends Ex{
 class Ex2_7 extends Ex{
    void execute(){
       Random rand = new Random();
-      int a = rand.nextInt(10);
+      int a = rand.nextInt(8) +1;
       System.out.println("1以上9以下の値"+a+"です。");
 
-      int b = rand.nextInt(10);
+      int b = rand.nextInt(9) -1;
       System.out.println("-9以上-1以下の値"+ -b +"です。");
 
       int c = rand.nextInt(10) + 90;
@@ -168,13 +168,15 @@ class Ex2_8 extends Ex{
    }
 }
 
-class Ex2_9 extends Ex{ void execute(){
+class Ex2_9 extends Ex{ 
+   void execute(){
       Random rand = new Random();
       double lucky = rand.nextDouble();
       System.out.println("0.0以上1.0未満の実数値"+ lucky +"です。");
 
-      double lucky1 = rand.nextDouble() +9.0;
+      double lucky1 = rand.nextDouble() *9.0;
       System.out.println("0.0以上10.0未満の実数値"+ lucky1 +"です。");
+
       double lucky2 = rand.nextDouble() -1.0;
       System.out.println("-1.0以上1.0未満の実数値"+ lucky2 +"です。");
    }

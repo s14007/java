@@ -168,7 +168,8 @@ class Ex2_8 extends Ex{
     int x = stdIn.nextInt();
 
     Random rand = new Random();
-    int lucky = rand.nextInt(x) -5;
+    int lucky = rand.nextInt(12) -5;
+        lucky = rand.nextInt(x);
     System.out.println("整数値プラスマイナス5の範囲の整数値"+ lucky +"です。");
   }
 }
@@ -182,8 +183,8 @@ class Ex2_9 extends Ex{
     double lucky1 = rand.nextDouble() *10.0;
     System.out.println("0.0以上10.0未満の実数値"+ lucky1 +"です。");
 
-    double lucky2 = rand.nextDouble() -2.0;
-    System.out.println("-1.0以上1.0未満の実数値"+ lucky2 +"です。");
+    double lucky2 = rand.nextDouble() -1.0;
+    System.out.println("-1.0以上1.0未満の実数値"+ -lucky2 +"です。");
   }
 }
 

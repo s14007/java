@@ -82,15 +82,29 @@ class Ex3{
 	}
 
 	public String ex3_7(int a){
-		return "dummy";
+          if(0 < 59){
+            return "不可";
+          }else if(60 <69){
+            return "可";
+          }else if(70 < 79){
+            return "良";
+          }else if(80 < 100){
+            return "優";
+          }else{
+             return "範囲(0~100)外の値です";
+          }
 	}
 
 	public double ex3_8(double a, double b){
-		return -1.0;
+          if(a < b){
+             return b;
+          }else{
+             return a;
+          }
 	}
 
 	public int ex3_9(int a, int b){
-		return 0;
+          return 0;
 	}
 
 	public String ex3_10(int a, int b){
@@ -102,7 +116,8 @@ class Ex3{
 	}
 
 	public int ex3_12(int a, int b, int c){
-		return 1000;
+          int[] intArray = {a, b, c};
+          return intArray[1];
 	}
 
 	public String ex3_13(int a){

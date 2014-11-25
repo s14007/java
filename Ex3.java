@@ -1,7 +1,12 @@
 class Ex3{
 
 	public String ex3_0(int n){
-
+   			
+			if(n > 0){
+				return "その値は正です";
+			}else{
+				return "その値は0か負です;
+			}
 
 	}
 

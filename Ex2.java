@@ -223,7 +223,6 @@ class Ex2_00 extends Ex{
 	}
 }
 
-public class Ex2 {
   public static void main(String[] args){
     Ex a;
     /*

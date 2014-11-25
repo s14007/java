@@ -75,7 +75,7 @@ class Ex3{
     }else if(a % 3 == 2){
       return "その値を3で割った余りは2です";
     }else{
-      return "error";
+      return "正でない整数値です";
     }
   }
 

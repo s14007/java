@@ -104,15 +104,26 @@ class Ex3{
 	}
 
 	public int ex3_9(int a, int b){
-          return 0;
+          int num = 0;
+          if(a < num || num < b){
+             return num;
+          }else{
+             return 1;
+          }
 	}
 
 	public String ex3_10(int a, int b){
-		return "dummy";
+
+          if((a - b) < 10){
+            return "それらの差は10以下です";
+          }else{
+            return "それらの差は11以上です";
+          }
+
 	}
 
 	public int ex3_11(int a, int b, int c){
-		return 1000;
+          return 0;
 	}
 
 	public int ex3_12(int a, int b, int c){
